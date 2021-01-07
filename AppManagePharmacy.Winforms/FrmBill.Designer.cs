@@ -1,6 +1,6 @@
 ﻿namespace AppManagePharmacy.Winforms
 {
-    partial class Form1
+    partial class FrmBill
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -28,10 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // FrmBill
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightGreen;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Name = "FrmBill";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

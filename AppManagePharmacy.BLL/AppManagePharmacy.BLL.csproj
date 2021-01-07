@@ -41,10 +41,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BiilBLO.cs" />
+    <Compile Include="BillBLO.cs" />
     <Compile Include="Common.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TypingException.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppManagePharmacy.BO\AppManagePharmacy.BO.csproj">
+      <Project>{921ccb7e-07e6-432c-b43d-58c09ab4a9f0}</Project>
+      <Name>AppManagePharmacy.BO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AppManagePharmacy.DAL\AppManagePharmacy.DAL.csproj">
+      <Project>{3be15acd-ed3b-4edc-af6a-c13328cc0573}</Project>
+      <Name>AppManagePharmacy.DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
